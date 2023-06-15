@@ -17,51 +17,7 @@
 
 <body>
 
-
-
-    <header class="main">
-
-
-
-        <nav>
-
-            <div class="logo">
-
-                <img src="images/logo.png" alt="Logo">
-
-            </div>
-
-            <ul id="decal">
-
-                <li><a href="#">Acceuil</a></li>
-                <li><a href="pages/articles.html">Articles</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-
-            </ul>
-
-            <ul id="post">
-
-                <li><a href="pages/inscription.html">Inscription</a></li>
-                <li><a href="pages/connexion.html">Connection</a></li>
-                <li><a href="pages/profil.html">Profil</a></li>
-
-            </ul>
-
-            <img id="Icon" src="images/menu_burger.png" alt="">
-
-
-
-        </nav>
-
-        <h1>Le secret bien garder pour une relaxation profonde</h1>
-
-    </header>
-
-
-
-
-
-
+    <?php include "header_nul.php"; ?>
 
     <main>
 
@@ -124,54 +80,8 @@
 
     </main>
 
+    <?php include "footer_nul.php"; ?>
 
-
-
-
-
-
-    <!-- le footer -->
-    <footer>
-        <div class="F">
-            <div class="foot">
-                <h3>DBMD974</h3>
-                <ul>
-                    <li><a href="#">BEAU GOSE</a></li>
-                    <li><a href="#">INSTRUI</a></li>
-                    <li><a href="#">PERFECTIONNISTE</a></li>
-                    <li><a href="#">GAMER</a></li>
-                </ul>
-            </div>
-
-            <div class="foot">
-                <h3>HUGO.D</h3>
-                <ul>
-                    <li><a href="#">IMPATIENT</a></li>
-                    <li><a href="#">TETU</a></li>
-                    <li><a href="#">VIRTUOSE</a></li>
-                    <li><a href="#">A LA BIEN COUSIN</a></li>
-                </ul>
-            </div>
-
-            <div class="foot">
-                <h3>NICOLAS.J</h3>
-                <ul>
-                    <li><a href="#">PAPA POULE</a></li>
-                    <li><a href="#">ENTREPRENEUR</a></li>
-                    <li><a href="#">BEAU GOSSE</a></li>
-                    <li><a href="#">PATRON</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- pour remplacer le hr -->
-        <div id="hr"></div>
-        <!-- <hr> -->
-
-
-        <div class="DL">
-            <p class="copyright">Company Damien, Hugo, Nicolas CBD © 2023</p>
-        </div>
-    </footer>
 
 
 </body>
