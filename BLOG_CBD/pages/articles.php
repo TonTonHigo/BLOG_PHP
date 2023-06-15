@@ -71,7 +71,7 @@
             <!-- 2eme ligne -->
 
             <div class="articles">
-                <img src="images\cbd_chien.jpg" alt="chien qui prend cbd" class="imgsize">
+                <img src="../images/cbd_chien.jpg" alt="chien qui prend cbd" class="imgsize">
                 <div class="bloctxt">
                     <h2 class="titreimg">Le CBD pour nos animaux.</h2>
                     <h3 class="ctd">Catégorie: Animaux</h3>
@@ -85,7 +85,7 @@
             </div>
 
             <div class="articles">
-                <img src="images\gummies_cbd.jpg" alt="homme mangeant des gummies" class="imgsize">
+                <img src="../images/gummies_cbd.jpg" alt="homme mangeant des gummies" class="imgsize">
                 <div class="bloctxt">
                     <h2 class="titreimg">CBD en version mangeable.</h2>
                     <h3 class="ctd">Catégorie: Comestibles</h3>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="articles">
-                <img src="images\fleur_cbd.jpg" alt="fleur de cbd" class="imgsize">
+                <img src="../images/fleur_cbd.jpg" alt="fleur de cbd" class="imgsize">
                 <div class="bloctxt">
                     <h2 class="titreimg">La fleur de CBD.</h2>
                     <h3 class="ctd">Catégorie: Fleur ou Qualités</h3>

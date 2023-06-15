@@ -7,7 +7,7 @@
 
     <div class="logo">
 
-        <img src="images/logo.png" alt="Logo">
+        <img src="http://localhost/BLOG_PHP/BLOG_CBD/images/logo.png" alt="Logo">
 
     </div>
 
