@@ -13,17 +13,17 @@
 
     <ul id="decal">
 
-        <li><a href="#">Acceuil</a></li>
-        <li><a href="pages/articles.html">Articles</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
+        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/">Acceuil</a></li>
+        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/articles.php">Articles</a></li>
+        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/contact.php">Contact</a></li>
 
     </ul>
 
     <ul id="post">
 
-        <li><a href="pages/inscription.html">Inscription</a></li>
-        <li><a href="pages/connexion.html">Connection</a></li>
-        <li><a href="pages/profil.html">Profil</a></li>
+        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/inscription.php">Inscription</a></li>
+        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/connexion.php">Connection</a></li>
+        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/profil.php">Profil</a></li>
 
     </ul>
 
@@ -34,5 +34,6 @@
 </nav>
 
 <h1>Le secret bien garder pour une relaxation profonde</h1>
+
 
 </header>

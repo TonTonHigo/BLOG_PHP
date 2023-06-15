@@ -24,7 +24,7 @@
                     <input type="text" placeholder="enter" class="saisi">
                     <label for="">Mots de passe</label>
                     <input type="text" placeholder="enter" class="saisi">
-                    <a href="../index.html" id="mdpforgor">Mot de passe oublié?</a>
+                    <a href="http://localhost/BLOG_PHP/BLOG_CBD/" id="mdpforgor">Mot de passe oublié?</a>
                     <input type="submit" id="submit">
                 </form>
             </div>

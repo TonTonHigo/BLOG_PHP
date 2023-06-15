@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog CBD</title>
+    <title>Profil</title>
 
 
 
@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="../css/css_profil.css">
+    <link rel="stylesheet" href="../css/css_cbd.css">
 
 
 </head>
@@ -21,39 +21,11 @@
 <body>
 
 
-    <header class="main">
+  
 
-        <nav>
+    <?php include "../header_nul.php"; ?>
 
-            <div class="logo">
-
-                <img src="../images/logo.png" alt="Logo">
-
-            </div>
-
-            <ul id="decal">
-
-                <li><a href="../index.html">Acceuil</a></li>
-                <li><a href="../pages/articles.html">Articles</a></li>
-                <li><a href="../pages/contact.html">Contact</a></li>
-
-            </ul>
-
-            <ul id="post">
-
-                <li><a href="#">Nom</a></li>
-                <li><a href="#">Prénom</a></li>
-
-
-            </ul>
-
-            <img id="Icon" src="../images/menu_burger.png" alt="">
-
-
-        </nav>
-
-        <h1>Profil</h1>
-        <br>
+    <main>
 
         <h2>Historique de mes dernieres vue : </h2>
 
@@ -70,53 +42,38 @@
             </p>
 
         </div>
-        
+
         <div class="image2">
-        
+
             <img class="image2" src="../images/image 2 profil.png" alt="">
-        
+
             <h4>Qu'est ce que la feuille de CBD :</h4>
-        
+
             <p class="text">
                 La feuille de CBD est un extrait de chanvre riche en cannabidiol (CBD), non psychotrope. Elle est
                 utilisée pour ses potentielles propriétés thérapeutiques, telles que soulager la douleur, réduire
                 l'inflammation et traiter l'anxiété.
             </p>
-        
+
         </div>
-        
+
         <div class="image4">
-        
+
             <img class="image4" src="../images/image 4 profil.png" alt="">
-        
+
             <h5>Qu'est ce que le goute à goute CBD :</h5>
-        
+
             <p class="text">
                 La goutte à goutte CBD est généralement réalisée à l'aide d'un flacon compte-gouttes qui permet de doser
                 précisément la quantité de CBD à prendre.Le microdosage permet de maintenir un niveau stable de CBD dans le
                 corps tout au long de la journée, ce qui peut potentiellement améliorer son efficacité.      
             </p>         
-        
+
         </div>
+    </main>
 
 
-        
-      
-        
-
-
-
-
-
-
-
-
-
-    </header>
-
-
-
-
+    <?php include "../footer_nul.php"; ?>
 
 
 </body>

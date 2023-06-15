@@ -11,49 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- link normal css -->
-    <link rel="stylesheet" href="css/css_cbd.css">
+    <link rel="stylesheet" href="../css/css_cbd.css">
 </head>
 
 <body>
 
 
-    <header class="main">
-
-
-
-        <nav>
-
-            <div class="logoArticles">
-
-                <img src="../images/logo.png" alt="Logo">
-
-            </div>
-
-            <ul id="decalArticles">
-
-                <li><a href="#">Acceuil</a></li>
-                <li><a href="pages/articles.html">Articles</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-
-            </ul>
-
-            <ul id="postArticles">
-
-                <li><a href="pages/inscription.html">Inscription</a></li>
-                <li><a href="pages/connexion.html">Connection</a></li>
-                <li><a href="pages/profil.html">Profil</a></li>
-
-            </ul>
-
-            <img id="IconArticles" src="images/menu_burger.png" alt="">
-
-
-
-        </nav>
-
-        <h1>Le secret bien garder pour une relaxation profonde</h1>
-
-    </header>
+    <?php include "../header_nul.php"; ?>
 
 
     <main>
@@ -199,48 +163,7 @@
 
 
 
-    <!-- le footer -->
-    <footer>
-        <div class="F">
-            <div class="foot">
-                <h3>DBMD974</h3>
-                <ul>
-                    <li><a href="#">BEAU GOSE</a></li>
-                    <li><a href="#">INSTRUI</a></li>
-                    <li><a href="#">PERFECTIONNISTE</a></li>
-                    <li><a href="#">GAMER</a></li>
-                </ul>
-            </div>
-
-            <div class="foot">
-                <h3>HUGO.D</h3>
-                <ul>
-                    <li><a href="#">IMPATIENT</a></li>
-                    <li><a href="#">TETU</a></li>
-                    <li><a href="#">VIRTUOSE</a></li>
-                    <li><a href="#">A LA BIEN COUSIN</a></li>
-                </ul>
-            </div>
-
-            <div class="foot">
-                <h3>NICOLAS.J</h3>
-                <ul>
-                    <li><a href="#">PAPA POULE</a></li>
-                    <li><a href="#">ENTREPRENEUR</a></li>
-                    <li><a href="#">BEAU GOSSE</a></li>
-                    <li><a href="#">PATRON</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- pour remplacer le hr -->
-        <div id="hr"></div>
-        <!-- <hr> -->
-
-
-        <div class="DL">
-            <p class="copyright">Company Damien, Hugo, Nicolas CBD © 2023</p>
-        </div>
-    </footer>
+    <?php include "../footer_nul.php"; ?>
 
     <script src="BLOG/BLOG_CBD/js/js_articles.js"></script>
 

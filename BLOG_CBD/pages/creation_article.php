@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="../css/css_creation_article.css">
+    <link rel="stylesheet" href="../css/css_cbd.css">
 </head>
 
 <body>
+
+    <?php include "../header.php"; ?>
 
     <main id="creamain">
         <div>
@@ -25,7 +27,11 @@
 
         <div id="creafond"></div>
     </main>
+
+
+    <?php include "../footer_nul.php"; ?>
     <script src="../js/js_creation_article.js"></script>
+
     
 </body>
 
