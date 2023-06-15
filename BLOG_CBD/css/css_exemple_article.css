@@ -1,0 +1,290 @@
+/* bleu: #0D619A
+noir: #ffffff 
+vert: #157359 
+orange: #f5c159 
+Typographie: 'Roboto', sans-serif */
+
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+header 
+{  
+       background-image: url(../images/CBD.jpg);
+       height: 300px;
+       background-position: center;
+       background-size: cover;
+       padding: 1%;
+}
+
+nav
+{
+       display: flex;
+       list-style-type: none; /* pas de puces */
+      
+} 
+
+nav a 
+{
+       color: white;
+       text-decoration:none;        
+       text-shadow: 3px 3px 0 #000;
+}
+
+img 
+{
+       width: 100px; /* Modifier cette valeur pour définir la largeur souhaitée */
+       /*height: auto;  Cela permet de conserver les proportions de l'image */
+}
+
+li
+{
+       
+       list-style-type: none; /* pas de puces */
+}
+
+#titre 
+{
+       color: white;
+       text-align: center;
+       text-shadow: 4px 4px 0 #000;
+}
+
+#post 
+{
+      margin-left: auto; 
+  
+}
+
+#decal
+{
+       display: flex;
+       gap: 10%;
+}
+
+/* Styles pour les tablettes */
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{     #Icon {
+              display: none;              
+       } /* Ajoutez vos styles spécifiques pour les tablettes ici */  
+}  
+/* Styles pour les téléphones mobiles */
+@media screen and (max-width: 767px)
+{      #Icon {
+              width: 50px;
+              align-items: center;
+              position: absolute;
+              right: 10%;
+       }/* Ajoutez vos styles spécifiques pour les téléphones mobiles ici */ 
+       #decal li {
+              display: none;
+       } 
+       #post {
+              display: none;
+       }
+}
+@media screen and (min-width: 1200px)
+{     #Icon {
+              display: none;
+       }  /* Ajoutez vos styles spécifiques pour les écrans larges ici */  }
+       body {
+              font-family: 'Roboto', sans-serif;
+              margin: 0%;
+       }
+       header {
+              background-image: url(../images/CBD.jpg);
+              height: 300px;
+              background-position: center;
+              background-size: cover;
+              padding: 1%;
+       }
+       nav {
+              display: flex;
+              list-style-type: none;
+              /* pas de puces */                
+       }              
+       nav a {
+              color: white;
+              text-decoration: none;
+              /*pas de surligneur*/
+              text-shadow: 3px 3px 0 #000;
+       }      
+       img {
+              width: 100px;
+              /* Modifier cette valeur pour définir la largeur souhaitée */
+              /*height: auto;  Cela permet de conserver les proportions de l'image */
+       }
+       li {
+              list-style-type: none;
+              /* pas de puces */       }
+       h1 {
+              color: white;
+              text-align: center;
+              text-shadow: 4px 4px 0 #000;       }
+       #post {
+              margin-left: auto;       }
+       #decal {
+              display: flex;
+              gap: 10%;       }
+       
+
+
+/* main */
+main{
+    margin: 1% 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.photo{
+    width: 600px;
+}
+
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre2{
+    color: #f5c159;
+    font-size: 40px;
+}
+
+.txt{
+    color: #0D619A;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mon footer */
+footer{ 
+    background-color: #0D619A;
+    position: absolute;
+    width: 100%;
+    /* bottom: 0; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .F c'est la div qui contient tout les lien du footer */
+.F{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 1% 5%;
+}
+
+/* .foot c'est la class des 3 mini footer */
+
+.foot {
+    justify-content: space-around;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    width: 60%;
+}
+
+/* jai du faire un semblant de hr avec une div pour pouvoir donner la color black */
+#hr{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+/* .DL c'est la class de la div qui contient le copyright */
+.DL{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* .foot h3 c'est pour viser le titre  */
+.foot h3{
+    text-align: center;
+}
+
+/* pour enlever la decoration */
+.foot ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.foot li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+/* je prepare le responsivité jus en dessous */
+
+@media (max-width: 800px) {
+    .foot {
+        margin: 10px;
+        width: 90%;
+        background-color: #f5c159 ;
+        color: #000000;
+
+    }
+
+    .foot ul {
+        padding: 10px;
+
+    }
+
+    .foot li a{
+        color: #000;
+    }
+    
+    .DL {
+        text-align: center;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    .hr {
+        border-top: 1px solid #000000;
+        margin: 20px 0;
+        background-color: rgb(6, 5, 5);
+    }
+
+    .foot h3 {
+        font-size: 16px;
+    }
+
+    .F {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

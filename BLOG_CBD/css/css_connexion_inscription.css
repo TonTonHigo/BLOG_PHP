@@ -1,0 +1,194 @@
+/* bleu: #0D619A
+noir: #ffffff 
+vert: #157359 
+orange: #f5c159 
+Typographie: 'Roboto', sans-serif */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/fond_conex_inscri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Connexion */
+#connexion{
+    position: absolute;
+    top:  45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+}
+#connexion h1{
+    text-shadow: 1px 5px 2px black;
+}
+#contform{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 1% 5%;
+    border-radius: 5px;
+}
+
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    color: #0D619A;
+    transition: 1s;
+}
+#formulaire a{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#formulaire input{
+    padding: 4%;
+    margin-bottom: 10px;
+}
+
+#submit{
+    position: relative;
+    left: 100%;
+}
+#submit:hover{    
+    color: white;
+    background-color: #157359;
+}
+#logo{
+    padding-left: 80%;
+    width: 100px;
+    transition: 1s;
+}
+
+.saisi:hover{
+    background-color: #157359;
+    color: white;
+    transition: 1s;
+}
+#mdpforgor{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0D619A;
+    transition: 1s;
+}
+#mdpforgor{
+    color:#157359;
+}
+
+@media screen and (max-width: 767px){
+ #connexion{
+    width: 200px;
+ }
+ #contform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 1% 5%;
+    border-radius: 5px;
+}
+ #logo{
+    padding: 0;
+ }
+ #submit{
+    position: relative;
+    left: 0;
+    transition: 1s;
+}
+}
+
+
+/* Inscription */
+
+
+#inscription{
+    position: absolute;
+    top:  35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 400px;
+    color: white;
+    font-size: 30px;
+}
+#inscription h1{
+    text-shadow: 1px 5px 2px black;
+}
+#insform{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 1% 5%;
+    border-radius: 5px;
+}
+
+#insformulaire{
+    display: flex;
+    flex-direction: column;
+    color: #0D619A;
+}
+#insformulaire a{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#insformulaire input{
+    padding: 4%;
+    margin-bottom: 10px;
+}
+
+#inssubmit{
+    position: relative;
+    left: 100%;
+    transition: 1s;
+}
+#inssubmit:hover{    
+    color: white;
+    background-color: #157359;
+}
+#inslogo{
+    padding-left: 10%;
+    padding-bottom: 25%;
+    width: 300px;
+}
+
+.inssaisi:hover{
+    background-color: #157359;
+    color: white;
+    transition: 1s;
+}
+
+#insmdpforgor{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0D619A;
+    transition: 1s;
+}
+#insmdpforgor{
+    color:#157359;
+}
+
+@media screen and (max-width: 767px){
+    #inscription{
+       width: 300px;
+    }
+    #insform{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       background-color: white;
+       padding: 1% 5%;
+       border-radius: 5px;
+   }
+    #inslogo{
+        width: 200px;
+       padding: 0;
+    }
+    #inssubmit{
+       position: relative;
+       left: 0;
+       transition: 1s;
+   }
+   }
