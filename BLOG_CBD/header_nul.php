@@ -14,7 +14,7 @@
     <ul id="decal">
 
         <li><a href="index.php?nom=acceuil.php">Acceuil</a></li>
-        <li><a href="index.php?nom=pages/articles">Articles</a></li>
+        <li><a href="index.php?nom=pages/articles.php">Articles</a></li>
         <li><a href="index.php?nom=pages/contact.php">Contact</a></li>
 
     </ul>
