@@ -13,17 +13,17 @@
 
     <ul id="decal">
 
-        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/">Acceuil</a></li>
-        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/articles.php">Articles</a></li>
-        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/contact.php">Contact</a></li>
+        <li><a href="index.php?nom=acceuil.php">Acceuil</a></li>
+        <li><a href="index.php?nom=pages/articles">Articles</a></li>
+        <li><a href="index.php?nom=pages/contact.php">Contact</a></li>
 
     </ul>
 
     <ul id="post">
 
-        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/inscription.php">Inscription</a></li>
-        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/connexion.php">Connection</a></li>
-        <li><a href="http://localhost/BLOG_PHP/BLOG_CBD/pages/profil.php">Profil</a></li>
+        <li><a href="index.php?nom=pages/inscription.php">Inscription</a></li>
+        <li><a href="index.php?nom=pages/connexion.php">Connection</a></li>
+        <li><a href="index.php?nom=pages/profil.php">Profil</a></li>
 
     </ul>
 

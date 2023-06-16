@@ -4,7 +4,7 @@ vert: #157359
 orange: #f5c159 
 Typographie: 'Roboto', sans-serif */
 
-body{
+#inscri_con{
     font-family: 'Roboto', sans-serif;
     background-image: url(../images/fond_conex_inscri.jpg);
     background-repeat: no-repeat;
